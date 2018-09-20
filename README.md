@@ -27,9 +27,5 @@ Información extraída del [informe](informe.pdf):
 -   Otras clases importantes son las de lectura (**Lectura**) y escritura (**EscrituraExcel**) las cuales aprovechan las bondades del software de ofimática Excel para mantener un registro amigable de los datos manejados por el programa.
 ## Patrones de diseño
 
-Se incluye el uso de 2 patrones de diseño:
-
 -   **Singleton**: Este patrón está diseñado para permitir solo una instancia de cierta clase, manteniéndola en la memoria para un uso futuro, por lo que nos resulta especialmente útil a la hora de instanciar las ventanas para luego ser reutilizadas, evitando así tener que volver a instanciar y crear datos que ya fueron cargados, incluso mejorando la velocidad de carga de las ventanas.
     
-
-- **Iterator**: Este patrón fue diseñado para recorrer una colección sin que sea necesario conocer la estructura interna de la misma. Esto se puede realizar gracias a una nueva clase que nosotros llamamos IteratorList que recorre un ArrayList.
